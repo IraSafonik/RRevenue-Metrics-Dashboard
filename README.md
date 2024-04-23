@@ -55,6 +55,7 @@ Through this project, I gained valuable experience in data exploration, metric c
 
 ### What have I learned from this program?
 This project deepened my understanding of recurring revenue metrics and their significance in evaluating the health and growth potential of a product or service. I learned how to calculate and interpret metrics such as MRR, ARPPU, churn rates, and customer lifetime value, which are crucial for making informed business decisions.
+
 Additionally, I improved my skills in data manipulation and transformation using SQL, as well as data visualization techniques in Tableau. I gained experience in creating interactive dashboards that allow users to explore data from multiple perspectives and extract meaningful insights.
 
 Overall, this project provided me with a practical opportunity to apply my knowledge of data analysis, SQL, and data visualization to a real-world business scenario, preparing me for future challenges in the field of data analytics and product management.
