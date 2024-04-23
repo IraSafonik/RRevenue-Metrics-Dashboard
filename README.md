@@ -47,13 +47,13 @@ The visual design of the dashboard will follow these principles:
 
 The data for the dashboard was obtained from the PostgreSQL database by writing SQL queries against the tables in the "project" schema. The dashboard will be created in Tableau Public and will be accessible to all internet users.
 
-Project Design and Conclusions
+### Project Design and Conclusions
 In designing the dashboard, I focused on creating a clear and intuitive layout that would allow product managers to quickly identify key trends and insights. I utilized a combination of bar charts, line graphs, and scatter plots to visualize the various metrics and their relationships.
 One of the challenges I encountered was finding an effective way to display the factors influencing changes in revenue and paid users from month to month. After experimenting with different chart types, I settled on a waterfall chart to clearly illustrate the contributions of new users, churned users, expansions, and contractions to the overall changes.
 
 Through this project, I gained valuable experience in data exploration, metric calculation, and data visualization using Tableau. I learned the importance of designing dashboards with the end-user in mind and adhering to best practices for effective communication of insights.
 
-What have I learned from this program?
+### What have I learned from this program?
 This project deepened my understanding of recurring revenue metrics and their significance in evaluating the health and growth potential of a product or service. I learned how to calculate and interpret metrics such as MRR, ARPPU, churn rates, and customer lifetime value, which are crucial for making informed business decisions.
 Additionally, I improved my skills in data manipulation and transformation using SQL, as well as data visualization techniques in Tableau. I gained experience in creating interactive dashboards that allow users to explore data from multiple perspectives and extract meaningful insights.
 
