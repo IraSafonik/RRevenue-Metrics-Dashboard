@@ -10,8 +10,11 @@ The project started on April 15, 2024, and is scheduled to be completed by April
 The data for the dashboard was obtained from two tables in the "project" schema of a PostgreSQL database:
 - project.games_paid_users
 (Columns: user_id, game_name, language, has_older_device_model, age)
+<img width="864" alt="Знімок екрана 2024-04-29 о 22 26 56" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/5e0f7723-6c3a-4e9a-8d8f-3ea9ece76929">
+
 - project.games_payments
 (Columns: user_id, game_name, payment_date, revenue_amount_usd)
+<img width="818" alt="Знімок екрана 2024-04-29 о 22 24 58" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/94ea6528-4ade-4166-8714-0347b9356ef0">
 
 ## Technology Tools
 - PostgreSQL
@@ -38,8 +41,8 @@ The following metrics were calculated based on the data:
 ### Dashboard Features
 The dashboard includes 10 of the listed metrics and has:
 - cards, charts, diagrams
-- Filters by date
-- two charts showing the factors influencing changes in revenue and paid, churn users from month to month
+- Filter by date
+- two charts showing the factors influencing changes in revenue and paid, churn users during year.
 
 ### Visual Design
 The visual design of the dashboard will follow these principles:
@@ -49,18 +52,21 @@ The visual design of the dashboard will follow these principles:
 - Color scheme usage
 <img width="1101" alt="Знімок екрана 2024-04-29 о 19 54 20" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/eddb2e2c-9574-4906-8243-6e861010d707">
 
-The data for the dashboard was obtained from the PostgreSQL database by writing SQL queries against the tables in the "project" schema. The dashboard will be created in Tableau Public and will be accessible to all users.
+The data for the dashboard was obtained from the PostgreSQL database by writing SQL queries against the tables in the "project" schema. The dashboard will be created in Tableau Public and will be accessible to all users. You can see here - [Tableau](https://public.tableau.com/app/profile/iryna.safonik/viz/RevenueMetrics_17143060263240/RevenueMetrics)
 
-## Project Design and Conclusions
-In designing the dashboard, I focused on creating a clear and intuitive layout that would allow product managers to quickly identify key trends and insights. I utilized a combination of bar charts, line graphs, and scatter plots to visualize the various metrics and their relationships.
-One of the challenges I encountered was finding an effective way to display the factors influencing changes in revenue and paid users from month to month. After experimenting with different chart types, I settled on a waterfall chart to clearly illustrate the contributions of new users, churned users, expansions, and contractions to the overall changes.
+## Conclusions
 <img width="1099" alt="Знімок екрана 2024-04-29 о 19 58 52" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/e151b245-2a59-4d8a-a84f-0407da89e47e">
 <img width="1050" alt="Знімок екрана 2024-04-29 о 19 58 36" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/6284721f-ea54-44bc-ad48-7ecec34c1a3a">
 
 ## Recommendations
 <img width="1095" alt="Знімок екрана 2024-04-29 о 19 59 01" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/2070aa33-be44-423a-a347-d4e6cc30f8e3">
 
-## What have I learned from this program?
+### Challanges 
+In designing the dashboard, I focused on creating a clear and intuitive layout that would allow product managers to quickly identify key trends and insights. I utilized a combination of bar charts, line graphs to visualize the various metrics and their relationships.
+One of the challenges I encountered was finding an effective way to display the factors influencing changes in revenue and paid users from month to month. After experimenting with different chart types, I settled on a waterfall chart to clearly illustrate the contributions of new users, churned users, expansions, and contractions to the overall changes.
+<img width="1093" alt="Знімок екрана 2024-04-29 о 19 59 14" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/0132723a-6418-449d-86ad-76378188cb5b">
+
+### What have I learned from this program?
 This project deepened my understanding of recurring revenue metrics and their significance in evaluating the health and growth potential of a product or service. I learned how to calculate and interpret metrics such as MRR, ARPPU, churn rates, and customer lifetime value, which are crucial for making informed business decisions.
 
 Through this project, I gained valuable experience in data exploration, metric calculation, and data visualization using Tableau. I learned the importance of designing dashboards with the end-user in mind and adhering to best practices for effective communication of insights.
