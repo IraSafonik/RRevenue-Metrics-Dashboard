@@ -61,12 +61,12 @@ The data for the dashboard was obtained from the PostgreSQL database by writing 
 ## Recommendations
 <img width="1095" alt="Знімок екрана 2024-04-29 о 19 59 01" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/2070aa33-be44-423a-a347-d4e6cc30f8e3">
 
-### Challanges 
+### Challanges that I got
 In designing the dashboard, I focused on creating a clear and intuitive layout that would allow product managers to quickly identify key trends and insights. I utilized a combination of bar charts, line graphs to visualize the various metrics and their relationships.
 One of the challenges I encountered was finding an effective way to display the factors influencing changes in revenue and paid users from month to month. After experimenting with different chart types, I settled on a waterfall chart to clearly illustrate the contributions of new users, churned users, expansions, and contractions to the overall changes.
 <img width="1093" alt="Знімок екрана 2024-04-29 о 19 59 14" src="https://github.com/IraSafonik/Revenue-Metrics-Dashboard/assets/32171563/0132723a-6418-449d-86ad-76378188cb5b">
 
-### What have I learned from this program?
+### What have I learned from this project?
 This project deepened my understanding of recurring revenue metrics and their significance in evaluating the health and growth potential of a product or service. I learned how to calculate and interpret metrics such as MRR, ARPPU, churn rates, and customer lifetime value, which are crucial for making informed business decisions.
 
 Through this project, I gained valuable experience in data exploration, metric calculation, and data visualization using Tableau. I learned the importance of designing dashboards with the end-user in mind and adhering to best practices for effective communication of insights.
